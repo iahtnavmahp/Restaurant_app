@@ -148,7 +148,8 @@ class _ListInformationScreenState extends State<ListInformationScreen> {
                                 height: 7,
                               ),
                               Text(
-                                "$price VND",
+                                
+                                "${price.substring(0,9)} VND",
                                 style: TextStyle(fontSize: 16, color: ColorCustom.WHITE, fontWeight: FontWeight.bold),
                               ),
                               SizedBox(
